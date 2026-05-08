@@ -1,6 +1,6 @@
 .footer {
   background: #020617;
-  padding: 50px 8% 25px;
+  padding: 35px 4% 17px;
   border-top: 1px solid rgba(255,255,255,0.08);
   position: relative;
 }
@@ -13,11 +13,9 @@
   flex-wrap: wrap;
 }
 
-/* BRAND */
-
 .footer-brand h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 8px;
   color: white;
 }
 
@@ -29,9 +27,9 @@
 
 .footer-links {
   display: flex;
-  gap: 28px;
+  gap: 24px;
   flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .footer-links a {
@@ -90,15 +88,15 @@
 /* BOTTOM */
 
 .footer-bottom {
-  margin-top: 30px;
-  padding-top: 25px;
+  margin-top: 25px;
+  padding-top: 15px;
   border-top: 1px solid rgba(255,255,255,0.08);
   text-align: center;
 }
 
 .footer-bottom p {
   color: #94a3b8;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* RESPONSIVE */
