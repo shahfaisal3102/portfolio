@@ -43,7 +43,6 @@
   color: white;
 }
 
-/* UNDERLINE EFFECT */
 
 .footer-links a::after {
   content: '';
@@ -85,7 +84,6 @@
   transform: translateY(-5px);
 }
 
-/* BOTTOM */
 
 .footer-bottom {
   margin-top: 25px;
@@ -99,7 +97,6 @@
   font-size: 13px;
 }
 
-/* RESPONSIVE */
 
 @media (max-width: 992px) {
 
