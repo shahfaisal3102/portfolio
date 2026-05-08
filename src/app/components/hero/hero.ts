@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import Typed from 'typed.js'
 import { RouterLink } from "@angular/router";
-import { Bind } from "../../../../../node_modules/primeng/types/primeng-bind";
+
 
 @Component({
   selector: 'app-hero',
