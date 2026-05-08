@@ -1,0 +1,136 @@
+.contact-section {
+  padding: 100px 8%;
+  background: #020617;
+  color: white;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-info h2 {
+  font-size: 34px;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.contact-info p {
+  max-width: 550px;
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+
+.contact-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 22px;
+  width: 100%;
+  max-width: 420px;
+  transition: 0.4s ease;
+}
+
+.contact-card:hover {
+  border-color: rgba(59,130,246,0.35);
+  box-shadow: 0 0 30px rgba(59,130,246,0.15);
+}
+
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-item:hover {
+  transform: translateX(4px);
+}
+
+/* ICON */
+
+.info-item i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(59,130,246,0.12);
+  border: 1px solid rgba(59,130,246,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #60a5fa;
+  font-size: 16px;
+}
+
+
+.info-item span {
+  font-size: 14px;
+  color: #e2e8f0;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #3b82f6;
+  transform: translateY(-4px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .contact-section {
+    padding: 90px 6%;
+  }
+
+  .section-title {
+    font-size: 34px;
+  }
+
+  .contact-info h2 {
+    font-size: 28px;
+  }
+
+  .contact-card {
+    padding: 24px;
+  }
+}
